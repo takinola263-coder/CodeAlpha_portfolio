@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    display:flex;
+    align-items:row;
+    gap : 350px;
+    margin-top:15px;
+}
+#b1{
+    font-size: 30px;
+    margin-left:50px;
+    
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+#nav1{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+#but1{
+    color: white;
+    background-color:#4077ff;
+    border: none;
+    border-radius:5px;
+    padding:4px;
+}
+#Home{
+    color:#8098ff;
+    border-bottom-style:solid;
+}
+#box2{
+    display:flex ;
+    background-image: url("back.jpg");
+    background-size:cover;
+    height:200px;
+    width:100%;
+    flex-direction:row ;
+    gap: 120px;
+    margin-top :10px;
+}
+#hh{
+    margin-bottom:2px;
+}
+#img1{
+    width:200px;
+    height:200px;
+    border-radius: 700px;
+}
+#p1{
+    text-align:left;
+    border:1px solid blue;
+    margin-top :2px;
+    width : 400px;
+}
+#hero {
+    margin-left:70px;
+}
+#uu{
+    font-size : 
+}
