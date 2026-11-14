@@ -37,6 +37,7 @@ a {
     display:flex ;
     background-image: url("back.jpg");
     background-size:cover;
+    background-position:center ;
     height:200px;
     width:100%;
     flex-direction:row ;
@@ -53,13 +54,45 @@ a {
 }
 #p1{
     text-align:left;
-    border:1px solid blue;
     margin-top :2px;
     width : 400px;
+    margin-bottom: 7px;
 }
 #hero {
     margin-left:70px;
 }
 #uu{
-    font-size : 
+    font-size : 20px;
+}
+#box3{
+    display :flex;
+    gap: 10px;
+}
+#but2{
+    padding : 6px 12px;
+    border-radius : 6px;
+    background : #5558ff;
+    color : white;
+    border : none;
+}
+#but3{
+    padding : 6px 12px;
+    border-radius : 6px;
+    color : #5558ff;
+    border: 1px solid blue;
+}
+
+#but{ 
+    color : blue;
+}
+#box5{
+   display : flex ;
+   align-items : center;
+   margin-top : 5px;
+   flex-direction :column;
+   margin-top : 15px;
+}
+#p2{
+    text-align : center;
+    width : 550px;
 }
